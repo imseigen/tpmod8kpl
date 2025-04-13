@@ -30,7 +30,7 @@ namespace tpmodul8_103022330128
                     satuan_suhu = "celcius",
                     batas_hari_deman = 14,
                     pesan_ditolak = "Anda tidak diperbolehkan masuk ke dalam gedung ini",
-                    pesan_diterima = "Anda dipersilahkan untuk masuk ke dalam gedung ini"
+                    pesan_diterima = "Anda diperbolehkan untuk masuk ke dalam gedung ini"
                 };
                 defaultConfig.Save();
                 return defaultConfig;
