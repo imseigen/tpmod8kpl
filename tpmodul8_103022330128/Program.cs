@@ -11,7 +11,7 @@ class Program
         Console.WriteLine($"Berapa suhu badan anda saat ini? Dalam nilai {config.satuan_suhu}");
         double suhu = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Berapa hari yang lalu (perkiraan) anda terakhir memiliki gejala deman?");
+        Console.WriteLine("Berapa hari yang lalu (perkiraan) anda terakhir memiliki gejala demam?");
         int hari = Convert.ToInt32(Console.ReadLine());
 
         bool suhuNormal = false;
